@@ -1,0 +1,351 @@
+patientid,body temperature,heartrate,bp,disease_level,disease_name,prioritize,resource_allocation,process,data_stored,medicines_used,Priority (PGAM),Offloading (DPTOA),CPU Allocation (KKT %),Decision (MAPPO),Response Time (sec),Energy Consumption (J),Task Completion Rate (%)
+P001,99.4,89,117/70,Starting,Diabetes Checkup,Medium,Emergency Ward,Diagnosis Ongoing,Yes,Insulin,4,Local,0.25,Normal Monitoring,1.774,8.34,95.35
+P002,102.9,130,141/82,Ending,Allergy,High,Hospital Bed,Treatment Ongoing,Yes,Cetirizine,6,Edge/Cloud,0.38,Fast Processing,1.152,8.35,92.15
+P003,98.8,123,153/87,Starting,Sinus Infection,Low,Maternity Ward,Screening,Yes,Antihistamine,6,Edge/Cloud,0.38,Fast Processing,1.89,5.73,90.12
+P004,97.2,118,165/87,Ending,Asthma,High,ICU,Records Updated,Yes,Inhaler,5,Local,0.32,Normal Monitoring,1.638,19.73,92.41
+P005,104.0,104,141/82,Moderate,Typhoid,High,Isolation Room,Treatment Ongoing,Yes,Antibiotics,5,Local,0.32,Normal Monitoring,1.996,18.28,99.76
+P006,98.5,95,128/74,Ending,Labor Pain,Medium,Hospital Bed,Records Updated,Yes,Maternity Support,4,Local,0.25,Normal Monitoring,0.831,14.49,98.02
+P007,100.6,128,119/101,Ending,Head Injury,Medium,OPD Visit,Treatment Ongoing,Yes,Neuro Support,6,Edge/Cloud,0.38,Fast Processing,1.581,21.88,99.6
+P008,98.0,101,124/69,Starting,Pregnancy Checkup,Low,Hospital Bed,Records Updated,Yes,Supplements,5,Local,0.32,Normal Monitoring,0.923,21.11,94.88
+P009,100.8,96,159/85,Starting,Typhoid,Medium,ICU,Diagnosis Ongoing,Yes,Antibiotics,4,Local,0.25,Normal Monitoring,1.064,16.71,91.1
+P010,99.9,75,145/71,Ending,Asthma,High,Doctor Assigned,Monitoring,Yes,Inhaler,4,Local,0.25,Normal Monitoring,1.33,22.37,95.48
+P011,97.7,71,169/105,Moderate,Heart Attack,Low,OPD Visit,Discharge Process,Yes,Emergency Cardiac Care,4,Local,0.25,Normal Monitoring,1.773,9.12,94.54
+P012,103.3,61,149/66,Starting,Pneumonia,Medium,Hospital Bed,Records Updated,Yes,Antibiotics,4,Local,0.25,Normal Monitoring,1.971,7.24,98.44
+P013,101.9,93,126/78,Ending,Road Accident,Medium,Maternity Ward,Screening,Yes,Painkillers,4,Local,0.25,Normal Monitoring,1.583,10.39,90.98
+P014,100.3,119,162/101,Ending,Burn Injury,High,Emergency Ward,Discharge Process,Yes,Burn Ointment,5,Local,0.32,Normal Monitoring,0.952,6.14,94.88
+P015,103.7,96,108/94,Starting,Fracture,Low,ICU,Screening,Yes,Calcium + Bandage,4,Local,0.25,Normal Monitoring,0.958,15.62,91.5
+P016,99.9,82,161/94,Moderate,Heart Attack,Low,General Ward,Maternity Care,Yes,Emergency Cardiac Care,4,Local,0.25,Normal Monitoring,1.528,23.73,93.25
+P017,97.9,100,128/102,Starting,Dengue,Medium,ICU,Monitoring,Yes,IV Fluids,4,Local,0.25,Normal Monitoring,0.63,5.79,97.37
+P018,103.6,95,152/97,Starting,Pregnancy Checkup,Low,Doctor Assigned,Records Updated,Yes,Supplements,4,Local,0.25,Normal Monitoring,0.399,7.44,94.76
+P019,103.8,130,117/70,Ending,Road Accident,Medium,OPD Visit,Emergency Procedure,Yes,Painkillers,6,Edge/Cloud,0.38,Fast Processing,0.838,14.04,93.76
+P020,103.3,60,164/73,Starting,Labor Pain,High,ICU,Records Updated,Yes,Maternity Support,4,Local,0.25,Normal Monitoring,0.717,23.68,93.94
+P021,101.0,60,109/80,Ending,Hypertension,Low,General Ward,Monitoring,Yes,BP Medicines,4,Local,0.25,Normal Monitoring,0.733,11.32,94.59
+P022,98.8,116,129/95,Ending,Asthma,Low,Maternity Ward,Emergency Procedure,Yes,Inhaler,5,Local,0.32,Normal Monitoring,0.62,15.14,97.85
+P023,97.7,117,165/105,Ending,Typhoid,Low,Emergency Ward,Discharge Process,Yes,Antibiotics,5,Local,0.32,Normal Monitoring,0.276,5.83,98.92
+P024,100.8,69,129/68,Starting,Pneumonia,High,Hospital Bed,Maternity Care,Yes,Antibiotics,4,Local,0.25,Normal Monitoring,0.232,7.97,99.55
+P025,99.0,96,127/79,Moderate,Burn Injury,High,Maternity Ward,Screening,Yes,Burn Ointment,4,Local,0.25,Normal Monitoring,1.978,24.73,97.87
+P026,101.7,96,167/74,Ending,Road Accident,Low,Isolation Room,Discharge Process,Yes,Painkillers,4,Local,0.25,Normal Monitoring,0.97,24.3,93.15
+P027,103.1,102,105/109,Ending,Typhoid,Low,Hospital Bed,Records Updated,Yes,Antibiotics,5,Local,0.32,Normal Monitoring,0.892,5.1,96.88
+P028,97.1,71,168/75,Moderate,Pregnancy Checkup,Medium,ICU,Monitoring,Yes,Supplements,4,Local,0.25,Normal Monitoring,1.423,24.04,94.38
+P029,97.2,89,150/80,Ending,Dengue,Medium,Emergency Ward,Emergency Procedure,Yes,IV Fluids,4,Local,0.25,Normal Monitoring,0.593,17.78,92.55
+P030,99.5,95,155/100,Ending,Stroke,Low,ICU,Screening,Yes,Neuro Medicines,4,Local,0.25,Normal Monitoring,1.91,22.36,98.41
+P031,97.4,106,157/69,Starting,Stroke,Medium,Emergency Ward,Screening,Yes,Neuro Medicines,5,Local,0.32,Normal Monitoring,1.615,14.09,90.38
+P032,103.9,106,114/90,Starting,Dengue,Medium,Hospital Bed,Discharge Process,Yes,IV Fluids,5,Local,0.32,Normal Monitoring,0.361,15.31,99.02
+P033,102.0,83,133/103,Starting,Dengue,Low,Doctor Assigned,Treatment Ongoing,Yes,IV Fluids,4,Local,0.25,Normal Monitoring,0.952,14.78,94.61
+P034,103.7,66,135/86,Moderate,Diabetes Checkup,Medium,ICU,Monitoring,Yes,Insulin,4,Local,0.25,Normal Monitoring,1.782,18.34,96.37
+P035,99.4,77,116/88,Starting,Pregnancy Checkup,Low,ICU,Treatment Ongoing,Yes,Supplements,4,Local,0.25,Normal Monitoring,1.901,7.79,96.59
+P036,98.3,75,110/72,Moderate,Head Injury,Low,Hospital Bed,Emergency Procedure,Yes,Neuro Support,4,Local,0.25,Normal Monitoring,1.041,5.6,98.95
+P037,101.9,88,134/105,Ending,Stroke,Low,Doctor Assigned,Maternity Care,Yes,Neuro Medicines,4,Local,0.25,Normal Monitoring,1.304,11.16,96.37
+P038,97.9,93,109/73,Starting,Viral Fever,Medium,ICU,Treatment Ongoing,Yes,Paracetamol,4,Local,0.25,Normal Monitoring,0.501,19.09,96.14
+P039,103.0,84,128/85,Moderate,Sinus Infection,Low,General Ward,Screening,Yes,Antihistamine,4,Local,0.25,Normal Monitoring,1.984,9.04,90.67
+P040,97.5,111,115/79,Starting,Sinus Infection,Low,General Ward,Screening,Yes,Antihistamine,5,Local,0.32,Normal Monitoring,0.617,18.47,95.18
+P041,98.7,71,105/100,Moderate,Diabetes Checkup,High,OPD Visit,Diagnosis Ongoing,Yes,Insulin,4,Local,0.25,Normal Monitoring,1.897,24.4,91.5
+P042,97.1,64,114/108,Moderate,Labor Pain,Low,ICU,Diagnosis Ongoing,Yes,Maternity Support,4,Local,0.25,Normal Monitoring,1.369,6.88,97.37
+P043,102.3,95,121/76,Moderate,Kidney Stone,Medium,Maternity Ward,Treatment Ongoing,Yes,Painkillers + Hydration,4,Local,0.25,Normal Monitoring,1.294,18.45,95.12
+P044,97.7,127,155/91,Moderate,Viral Fever,Medium,Hospital Bed,Treatment Ongoing,Yes,Paracetamol,6,Edge/Cloud,0.38,Fast Processing,1.123,13.88,96.8
+P045,99.3,125,147/73,Moderate,Pneumonia,High,Maternity Ward,Discharge Process,Yes,Antibiotics,6,Edge/Cloud,0.38,Fast Processing,0.615,22.36,90.42
+P046,103.8,108,147/89,Starting,Asthma,Medium,Emergency Ward,Records Updated,Yes,Inhaler,5,Local,0.32,Normal Monitoring,0.518,8.54,90.85
+P047,98.3,87,149/87,Starting,Allergy,High,Doctor Assigned,Diagnosis Ongoing,Yes,Cetirizine,4,Local,0.25,Normal Monitoring,0.597,18.85,97.16
+P048,98.8,122,148/70,Starting,Labor Pain,Medium,Doctor Assigned,Maternity Care,Yes,Maternity Support,6,Edge/Cloud,0.38,Fast Processing,0.536,21.76,90.72
+P049,100.8,88,152/89,Moderate,Dengue,Medium,ICU,Monitoring,Yes,IV Fluids,4,Local,0.25,Normal Monitoring,1.603,23.89,90.71
+P050,100.8,100,157/70,Moderate,Kidney Stone,High,General Ward,Emergency Procedure,Yes,Painkillers + Hydration,4,Local,0.25,Normal Monitoring,0.83,18.66,90.12
+P051,100.9,104,165/109,Starting,Pregnancy Checkup,Low,Doctor Assigned,Emergency Procedure,Yes,Supplements,5,Local,0.32,Normal Monitoring,0.304,14.94,99.57
+P052,97.9,61,136/106,Moderate,Flu,Low,General Ward,Treatment Ongoing,Yes,Paracetamol,4,Local,0.25,Normal Monitoring,1.944,17.36,97.38
+P053,101.0,71,140/100,Starting,Head Injury,Medium,Emergency Ward,Maternity Care,Yes,Neuro Support,4,Local,0.25,Normal Monitoring,1.791,22.38,93.53
+P054,98.3,81,130/87,Moderate,Kidney Stone,High,Isolation Room,Emergency Procedure,Yes,Painkillers + Hydration,4,Local,0.25,Normal Monitoring,1.87,16.41,92.97
+P055,102.6,120,118/69,Starting,Labor Pain,Medium,Doctor Assigned,Records Updated,Yes,Maternity Support,5,Local,0.32,Normal Monitoring,1.991,5.61,93.5
+P056,98.3,86,154/95,Moderate,Stroke,Medium,Maternity Ward,Discharge Process,Yes,Neuro Medicines,4,Local,0.25,Normal Monitoring,0.513,23.62,97.75
+P057,103.8,100,127/93,Starting,Pregnancy Checkup,High,Doctor Assigned,Treatment Ongoing,Yes,Supplements,4,Local,0.25,Normal Monitoring,0.913,18.79,96.61
+P058,98.9,116,149/94,Moderate,Flu,Medium,OPD Visit,Monitoring,Yes,Paracetamol,5,Local,0.32,Normal Monitoring,1.565,18.53,91.85
+P059,103.0,72,148/100,Starting,Stroke,Medium,Doctor Assigned,Screening,Yes,Neuro Medicines,4,Local,0.25,Normal Monitoring,1.453,9.31,91.74
+P060,100.2,66,140/74,Starting,Heart Attack,Medium,Isolation Room,Screening,Yes,Emergency Cardiac Care,4,Local,0.25,Normal Monitoring,0.477,18.18,90.98
+P061,100.2,108,158/86,Starting,Asthma,Medium,General Ward,Diagnosis Ongoing,Yes,Inhaler,5,Local,0.32,Normal Monitoring,1.668,12.88,96.6
+P062,98.2,97,164/86,Ending,Kidney Stone,High,Hospital Bed,Discharge Process,Yes,Painkillers + Hydration,4,Local,0.25,Normal Monitoring,0.604,18.02,97.64
+P063,97.0,115,124/87,Starting,Allergy,Low,OPD Visit,Maternity Care,Yes,Cetirizine,5,Local,0.32,Normal Monitoring,0.603,7.13,92.65
+P064,102.9,114,135/87,Ending,Allergy,High,Hospital Bed,Screening,Yes,Cetirizine,5,Local,0.32,Normal Monitoring,1.167,18.16,90.21
+P065,100.4,66,144/99,Starting,Stroke,High,General Ward,Treatment Ongoing,Yes,Neuro Medicines,4,Local,0.25,Normal Monitoring,1.267,24.99,90.82
+P066,98.2,92,113/107,Ending,Road Accident,Low,Doctor Assigned,Screening,Yes,Painkillers,4,Local,0.25,Normal Monitoring,1.244,5.96,99.68
+P067,103.5,100,119/101,Starting,Burn Injury,Low,Doctor Assigned,Diagnosis Ongoing,Yes,Burn Ointment,4,Local,0.25,Normal Monitoring,0.365,24.54,92.95
+P068,102.5,75,152/70,Ending,Allergy,Medium,Maternity Ward,Emergency Procedure,Yes,Cetirizine,4,Local,0.25,Normal Monitoring,1.779,13.14,97.69
+P069,102.1,80,149/89,Starting,Heart Attack,Medium,ICU,Maternity Care,Yes,Emergency Cardiac Care,4,Local,0.25,Normal Monitoring,0.678,22.42,96.25
+P070,97.6,70,157/70,Ending,Head Injury,Medium,Maternity Ward,Screening,Yes,Neuro Support,4,Local,0.25,Normal Monitoring,0.433,20.65,93.82
+P071,103.2,120,121/93,Moderate,Labor Pain,Medium,Isolation Room,Monitoring,Yes,Maternity Support,5,Local,0.32,Normal Monitoring,1.8,16.34,92.06
+P072,100.7,117,111/98,Moderate,Diabetes Checkup,Medium,General Ward,Discharge Process,Yes,Insulin,5,Local,0.32,Normal Monitoring,1.92,19.77,91.21
+P073,98.3,75,130/101,Ending,Burn Injury,High,Doctor Assigned,Diagnosis Ongoing,Yes,Burn Ointment,4,Local,0.25,Normal Monitoring,1.752,22.57,96.15
+P074,99.9,85,134/105,Starting,Diabetes Checkup,Medium,OPD Visit,Screening,Yes,Insulin,4,Local,0.25,Normal Monitoring,1.657,13.08,97.75
+P075,99.0,130,134/69,Moderate,Kidney Stone,Medium,Emergency Ward,Maternity Care,Yes,Painkillers + Hydration,6,Edge/Cloud,0.38,Fast Processing,1.379,11.54,96.44
+P076,98.3,109,111/67,Moderate,Stroke,Low,Hospital Bed,Treatment Ongoing,Yes,Neuro Medicines,5,Local,0.32,Normal Monitoring,1.192,18.35,95.3
+P077,103.8,128,147/99,Ending,Dengue,Medium,ICU,Emergency Procedure,Yes,IV Fluids,6,Edge/Cloud,0.38,Fast Processing,0.357,21.16,90.42
+P078,101.0,70,136/93,Moderate,Sinus Infection,High,Hospital Bed,Screening,Yes,Antihistamine,4,Local,0.25,Normal Monitoring,0.935,20.25,99.68
+P079,102.3,105,167/77,Ending,Hypertension,High,OPD Visit,Screening,Yes,BP Medicines,5,Local,0.32,Normal Monitoring,0.871,20.96,97.99
+P080,101.9,76,140/70,Moderate,Sinus Infection,Medium,Hospital Bed,Monitoring,Yes,Antihistamine,4,Local,0.25,Normal Monitoring,0.668,13.71,92.93
+P081,103.8,105,168/80,Ending,Road Accident,High,Doctor Assigned,Screening,Yes,Painkillers,5,Local,0.32,Normal Monitoring,1.502,21.36,99.8
+P082,103.0,126,127/89,Ending,Asthma,Medium,Doctor Assigned,Screening,Yes,Inhaler,6,Edge/Cloud,0.38,Fast Processing,1.093,7.4,96.02
+P083,101.8,105,111/89,Moderate,Heart Attack,Medium,ICU,Monitoring,Yes,Emergency Cardiac Care,5,Local,0.32,Normal Monitoring,0.346,15.89,95.82
+P084,99.8,107,168/99,Starting,Road Accident,High,Hospital Bed,Treatment Ongoing,Yes,Painkillers,5,Local,0.32,Normal Monitoring,0.596,5.12,97.48
+P085,103.7,91,116/92,Ending,Flu,Medium,Maternity Ward,Maternity Care,Yes,Paracetamol,4,Local,0.25,Normal Monitoring,1.43,11.49,98.12
+P086,97.3,96,123/110,Moderate,Heart Attack,High,ICU,Monitoring,Yes,Emergency Cardiac Care,4,Local,0.25,Normal Monitoring,0.337,12.33,96.56
+P087,99.6,102,152/86,Ending,Viral Fever,Low,Emergency Ward,Screening,Yes,Paracetamol,5,Local,0.32,Normal Monitoring,1.732,12.92,91.28
+P088,103.9,63,109/95,Moderate,Diabetes Checkup,Low,Maternity Ward,Maternity Care,Yes,Insulin,4,Local,0.25,Normal Monitoring,1.091,18.91,93.38
+P089,99.0,126,112/75,Starting,Pneumonia,High,Maternity Ward,Monitoring,Yes,Antibiotics,6,Edge/Cloud,0.38,Fast Processing,1.065,12.77,99.28
+P090,99.3,65,153/69,Ending,Cold,Low,Isolation Room,Diagnosis Ongoing,Yes,Vitamin C,4,Local,0.25,Normal Monitoring,1.266,13.97,92.25
+P091,97.2,94,158/80,Moderate,Road Accident,High,Hospital Bed,Diagnosis Ongoing,Yes,Painkillers,4,Local,0.25,Normal Monitoring,1.684,9.75,93.72
+P092,99.5,109,133/80,Starting,Road Accident,High,General Ward,Emergency Procedure,Yes,Painkillers,5,Local,0.32,Normal Monitoring,0.826,12.47,94.32
+P093,101.8,80,128/74,Moderate,Fracture,Low,Isolation Room,Discharge Process,Yes,Calcium + Bandage,4,Local,0.25,Normal Monitoring,1.42,9.55,94.39
+P094,101.7,130,154/78,Ending,Heart Attack,Medium,Maternity Ward,Discharge Process,Yes,Emergency Cardiac Care,6,Edge/Cloud,0.38,Fast Processing,1.218,6.46,96.13
+P095,103.0,88,160/86,Moderate,Head Injury,Low,ICU,Screening,Yes,Neuro Support,4,Local,0.25,Normal Monitoring,0.681,17.07,99.43
+P096,99.5,129,127/99,Starting,Pneumonia,Low,Isolation Room,Diagnosis Ongoing,Yes,Antibiotics,6,Edge/Cloud,0.38,Fast Processing,1.782,18.36,92.41
+P097,99.1,125,127/85,Moderate,Labor Pain,Low,ICU,Emergency Procedure,Yes,Maternity Support,6,Edge/Cloud,0.38,Fast Processing,1.635,17.39,91.22
+P098,97.5,78,152/83,Ending,Pregnancy Checkup,Medium,General Ward,Emergency Procedure,Yes,Supplements,4,Local,0.25,Normal Monitoring,1.385,14.27,91.97
+P099,103.7,110,119/67,Moderate,Pregnancy Checkup,Medium,General Ward,Discharge Process,Yes,Supplements,5,Local,0.32,Normal Monitoring,1.731,12.6,98.87
+P100,99.4,90,106/74,Starting,Sinus Infection,Low,ICU,Screening,Yes,Antihistamine,4,Local,0.25,Normal Monitoring,1.761,22.27,96.46
+P101,101.0,67,111/93,Ending,Pregnancy Checkup,Medium,OPD Visit,Maternity Care,Yes,Supplements,4,Local,0.25,Normal Monitoring,1.475,15.38,92.86
+P102,99.6,85,147/73,Starting,Pneumonia,High,Doctor Assigned,Discharge Process,Yes,Antibiotics,4,Local,0.25,Normal Monitoring,1.707,14.58,98.16
+P103,102.8,106,121/104,Moderate,Pregnancy Checkup,Low,Emergency Ward,Diagnosis Ongoing,Yes,Supplements,5,Local,0.32,Normal Monitoring,1.455,5.51,98.61
+P104,100.8,124,163/70,Moderate,Sinus Infection,High,Maternity Ward,Monitoring,Yes,Antihistamine,6,Edge/Cloud,0.38,Fast Processing,1.424,11.82,98.47
+P105,99.1,128,162/77,Ending,Viral Fever,Medium,Doctor Assigned,Screening,Yes,Paracetamol,6,Edge/Cloud,0.38,Fast Processing,1.314,12.6,99.19
+P106,100.2,63,137/65,Ending,Viral Fever,Low,ICU,Records Updated,Yes,Paracetamol,4,Local,0.25,Normal Monitoring,1.555,12.98,92.52
+P107,103.1,112,151/97,Ending,Dengue,Low,OPD Visit,Maternity Care,Yes,IV Fluids,5,Local,0.32,Normal Monitoring,0.485,16.6,97.55
+P108,100.0,95,155/78,Ending,Head Injury,Medium,ICU,Emergency Procedure,Yes,Neuro Support,4,Local,0.25,Normal Monitoring,1.786,15.67,94.61
+P109,101.8,63,126/93,Starting,Pneumonia,Medium,Isolation Room,Records Updated,Yes,Antibiotics,4,Local,0.25,Normal Monitoring,1.769,17.16,98.42
+P110,103.8,127,168/74,Starting,Hypertension,High,Emergency Ward,Screening,Yes,BP Medicines,6,Edge/Cloud,0.38,Fast Processing,0.253,20.3,97.28
+P111,100.8,73,128/65,Starting,Stroke,High,ICU,Emergency Procedure,Yes,Neuro Medicines,4,Local,0.25,Normal Monitoring,1.686,21.26,97.76
+P112,102.0,63,170/87,Starting,Asthma,Medium,ICU,Maternity Care,Yes,Inhaler,4,Local,0.25,Normal Monitoring,0.432,19.36,96.56
+P113,97.7,102,149/80,Moderate,Pneumonia,High,OPD Visit,Screening,Yes,Antibiotics,5,Local,0.32,Normal Monitoring,0.803,24.11,91.77
+P114,103.6,93,127/67,Moderate,Stroke,High,OPD Visit,Discharge Process,Yes,Neuro Medicines,4,Local,0.25,Normal Monitoring,1.538,5.36,95.45
+P115,98.5,115,147/88,Moderate,Labor Pain,Medium,Maternity Ward,Diagnosis Ongoing,Yes,Maternity Support,5,Local,0.32,Normal Monitoring,0.489,8.92,99.85
+P116,97.4,122,162/83,Starting,Flu,Low,Hospital Bed,Diagnosis Ongoing,Yes,Paracetamol,6,Edge/Cloud,0.38,Fast Processing,1.672,5.15,99.37
+P117,97.4,111,129/101,Ending,Asthma,High,OPD Visit,Records Updated,Yes,Inhaler,5,Local,0.32,Normal Monitoring,1.698,17.95,90.43
+P118,101.2,69,120/109,Ending,Typhoid,High,Hospital Bed,Emergency Procedure,Yes,Antibiotics,4,Local,0.25,Normal Monitoring,1.113,22.96,91.65
+P119,97.8,96,170/97,Starting,Stroke,Low,Hospital Bed,Treatment Ongoing,Yes,Neuro Medicines,4,Local,0.25,Normal Monitoring,0.211,9.87,91.32
+P120,97.3,79,108/103,Moderate,Hypertension,High,Maternity Ward,Maternity Care,Yes,BP Medicines,4,Local,0.25,Normal Monitoring,0.717,23.54,97.26
+P121,102.6,72,137/108,Moderate,Dengue,Medium,Emergency Ward,Emergency Procedure,Yes,IV Fluids,4,Local,0.25,Normal Monitoring,1.31,6.21,98.18
+P122,101.8,104,156/110,Starting,Viral Fever,High,Emergency Ward,Treatment Ongoing,Yes,Paracetamol,5,Local,0.32,Normal Monitoring,1.966,23.69,92.14
+P123,102.7,79,168/110,Starting,Typhoid,High,Doctor Assigned,Diagnosis Ongoing,Yes,Antibiotics,4,Local,0.25,Normal Monitoring,1.337,12.03,95.06
+P124,101.9,72,155/101,Ending,Head Injury,Medium,Emergency Ward,Emergency Procedure,Yes,Neuro Support,4,Local,0.25,Normal Monitoring,0.668,7.03,98.41
+P125,101.1,111,158/110,Moderate,Pneumonia,High,Maternity Ward,Screening,Yes,Antibiotics,5,Local,0.32,Normal Monitoring,1.341,14.72,97.33
+P126,103.1,79,156/91,Ending,Kidney Stone,High,Maternity Ward,Discharge Process,Yes,Painkillers + Hydration,4,Local,0.25,Normal Monitoring,1.172,10.14,95.42
+P127,103.6,60,125/93,Ending,Hypertension,Medium,General Ward,Records Updated,Yes,BP Medicines,4,Local,0.25,Normal Monitoring,1.604,10.7,95.9
+P128,98.6,103,146/79,Moderate,Flu,Low,Isolation Room,Maternity Care,Yes,Paracetamol,5,Local,0.32,Normal Monitoring,0.393,11.15,95.08
+P129,101.4,89,146/100,Ending,Road Accident,High,Emergency Ward,Emergency Procedure,Yes,Painkillers,4,Local,0.25,Normal Monitoring,1.57,21.06,92.98
+P130,98.0,70,129/86,Ending,Heart Attack,Low,ICU,Monitoring,Yes,Emergency Cardiac Care,4,Local,0.25,Normal Monitoring,1.174,15.78,95.65
+P131,99.2,118,160/71,Starting,Hypertension,Medium,Emergency Ward,Treatment Ongoing,Yes,BP Medicines,5,Local,0.32,Normal Monitoring,1.933,11.23,96.89
+P132,100.4,76,151/80,Starting,Burn Injury,High,Emergency Ward,Diagnosis Ongoing,Yes,Burn Ointment,4,Local,0.25,Normal Monitoring,0.815,17.21,98.73
+P133,100.7,122,141/68,Moderate,Stroke,Medium,Hospital Bed,Screening,Yes,Neuro Medicines,6,Edge/Cloud,0.38,Fast Processing,1.339,19.32,96.36
+P134,97.5,111,152/108,Moderate,Head Injury,Low,Doctor Assigned,Records Updated,Yes,Neuro Support,5,Local,0.32,Normal Monitoring,1.878,10.45,97.61
+P135,102.7,114,108/84,Ending,Pregnancy Checkup,Medium,Doctor Assigned,Monitoring,Yes,Supplements,5,Local,0.32,Normal Monitoring,0.385,13.27,91.6
+P136,101.1,82,137/86,Starting,Hypertension,Low,Hospital Bed,Treatment Ongoing,Yes,BP Medicines,4,Local,0.25,Normal Monitoring,1.887,7.44,94.62
+P137,100.9,84,151/72,Moderate,Hypertension,Low,Isolation Room,Treatment Ongoing,Yes,BP Medicines,4,Local,0.25,Normal Monitoring,1.438,8.62,90.09
+P138,99.4,83,133/96,Starting,Allergy,Low,Hospital Bed,Diagnosis Ongoing,Yes,Cetirizine,4,Local,0.25,Normal Monitoring,0.322,18.62,92.47
+P139,97.4,98,115/109,Starting,Diabetes Checkup,High,Isolation Room,Records Updated,Yes,Insulin,4,Local,0.25,Normal Monitoring,0.742,8.63,97.26
+P140,99.3,103,125/107,Starting,Fracture,Medium,Hospital Bed,Discharge Process,Yes,Calcium + Bandage,5,Local,0.32,Normal Monitoring,1.475,15.5,99.92
+P141,99.4,119,138/107,Moderate,Allergy,High,OPD Visit,Monitoring,Yes,Cetirizine,5,Local,0.32,Normal Monitoring,0.321,19.18,90.99
+P142,103.7,125,132/75,Starting,Pneumonia,Low,OPD Visit,Records Updated,Yes,Antibiotics,6,Edge/Cloud,0.38,Fast Processing,1.248,7.14,94.01
+P143,99.4,82,125/93,Ending,Heart Attack,Low,Emergency Ward,Maternity Care,Yes,Emergency Cardiac Care,4,Local,0.25,Normal Monitoring,0.823,16.35,98.0
+P144,100.4,113,147/73,Ending,Heart Attack,Medium,Hospital Bed,Screening,Yes,Emergency Cardiac Care,5,Local,0.32,Normal Monitoring,1.318,10.13,92.04
+P145,101.0,128,117/104,Ending,Flu,Low,Doctor Assigned,Diagnosis Ongoing,Yes,Paracetamol,6,Edge/Cloud,0.38,Fast Processing,0.282,24.26,95.55
+P146,103.7,63,132/89,Ending,Asthma,High,Hospital Bed,Records Updated,Yes,Inhaler,4,Local,0.25,Normal Monitoring,1.769,14.67,97.33
+P147,97.3,80,109/83,Ending,Pneumonia,Medium,ICU,Emergency Procedure,Yes,Antibiotics,4,Local,0.25,Normal Monitoring,1.952,21.12,96.16
+P148,100.4,88,155/110,Starting,Sinus Infection,High,Hospital Bed,Records Updated,Yes,Antihistamine,4,Local,0.25,Normal Monitoring,1.944,16.0,91.88
+P149,103.0,114,109/68,Ending,Hypertension,Medium,Doctor Assigned,Discharge Process,Yes,BP Medicines,5,Local,0.32,Normal Monitoring,1.549,5.87,93.55
+P150,98.1,113,113/71,Moderate,Labor Pain,Low,OPD Visit,Treatment Ongoing,Yes,Maternity Support,5,Local,0.32,Normal Monitoring,0.434,17.66,97.84
+P151,97.0,67,118/102,Moderate,Hypertension,Medium,General Ward,Records Updated,Yes,BP Medicines,4,Local,0.25,Normal Monitoring,1.565,24.03,95.54
+P152,98.8,92,135/67,Ending,Asthma,Medium,Hospital Bed,Discharge Process,Yes,Inhaler,4,Local,0.25,Normal Monitoring,0.244,17.03,90.05
+P153,101.6,106,123/65,Starting,Hypertension,High,Isolation Room,Monitoring,Yes,BP Medicines,5,Local,0.32,Normal Monitoring,0.24,21.38,97.61
+P154,100.5,68,139/86,Moderate,Kidney Stone,High,Doctor Assigned,Treatment Ongoing,Yes,Painkillers + Hydration,4,Local,0.25,Normal Monitoring,0.782,22.68,90.35
+P155,101.0,68,118/103,Ending,Hypertension,Low,General Ward,Records Updated,Yes,BP Medicines,4,Local,0.25,Normal Monitoring,1.08,9.56,97.46
+P156,101.6,104,137/89,Ending,Pregnancy Checkup,Low,Doctor Assigned,Treatment Ongoing,Yes,Supplements,5,Local,0.32,Normal Monitoring,1.587,9.24,92.02
+P157,101.7,128,167/99,Ending,Heart Attack,High,ICU,Treatment Ongoing,Yes,Emergency Cardiac Care,6,Edge/Cloud,0.38,Fast Processing,1.43,17.22,99.58
+P158,100.0,125,136/72,Moderate,Sinus Infection,High,General Ward,Maternity Care,Yes,Antihistamine,6,Edge/Cloud,0.38,Fast Processing,1.003,13.22,93.68
+P159,103.4,104,129/90,Ending,Asthma,High,Doctor Assigned,Treatment Ongoing,Yes,Inhaler,5,Local,0.32,Normal Monitoring,0.693,21.8,93.27
+P160,98.2,110,131/97,Moderate,Road Accident,High,Maternity Ward,Screening,Yes,Painkillers,5,Local,0.32,Normal Monitoring,1.995,23.0,91.49
+P161,99.5,75,122/91,Starting,Diabetes Checkup,Low,Emergency Ward,Screening,Yes,Insulin,4,Local,0.25,Normal Monitoring,0.967,12.07,93.06
+P162,101.9,81,164/67,Starting,Heart Attack,High,General Ward,Maternity Care,Yes,Emergency Cardiac Care,4,Local,0.25,Normal Monitoring,1.012,9.74,98.77
+P163,100.8,64,111/75,Ending,Typhoid,High,Doctor Assigned,Treatment Ongoing,Yes,Antibiotics,4,Local,0.25,Normal Monitoring,0.495,20.61,99.96
+P164,100.4,69,135/86,Starting,Road Accident,Low,OPD Visit,Records Updated,Yes,Painkillers,4,Local,0.25,Normal Monitoring,1.631,10.5,93.68
+P165,97.5,81,136/102,Ending,Diabetes Checkup,Medium,ICU,Screening,Yes,Insulin,4,Local,0.25,Normal Monitoring,1.449,21.45,94.49
+P166,99.1,82,144/106,Ending,Burn Injury,High,Isolation Room,Diagnosis Ongoing,Yes,Burn Ointment,4,Local,0.25,Normal Monitoring,0.597,13.47,97.22
+P167,98.2,86,148/71,Starting,Allergy,High,Maternity Ward,Records Updated,Yes,Cetirizine,4,Local,0.25,Normal Monitoring,0.348,18.35,98.86
+P168,101.6,89,159/103,Starting,Burn Injury,Medium,General Ward,Treatment Ongoing,Yes,Burn Ointment,4,Local,0.25,Normal Monitoring,1.425,6.91,95.93
+P169,97.0,79,129/93,Moderate,Diabetes Checkup,Medium,ICU,Maternity Care,Yes,Insulin,4,Local,0.25,Normal Monitoring,1.378,17.48,93.92
+P170,102.9,81,113/103,Starting,Fracture,Low,ICU,Monitoring,Yes,Calcium + Bandage,4,Local,0.25,Normal Monitoring,0.692,14.04,94.13
+P171,99.4,111,113/102,Moderate,Cold,Low,Emergency Ward,Treatment Ongoing,Yes,Vitamin C,5,Local,0.32,Normal Monitoring,1.912,16.73,96.96
+P172,102.2,78,108/106,Ending,Asthma,Medium,Maternity Ward,Emergency Procedure,Yes,Inhaler,4,Local,0.25,Normal Monitoring,0.472,8.36,90.03
+P173,103.8,71,123/78,Starting,Cold,Medium,General Ward,Screening,Yes,Vitamin C,4,Local,0.25,Normal Monitoring,0.978,19.74,96.2
+P174,97.6,61,122/90,Moderate,Burn Injury,High,ICU,Diagnosis Ongoing,Yes,Burn Ointment,4,Local,0.25,Normal Monitoring,1.899,22.26,93.55
+P175,103.9,62,129/65,Ending,Heart Attack,Medium,ICU,Records Updated,Yes,Emergency Cardiac Care,4,Local,0.25,Normal Monitoring,0.956,9.33,97.94
+P176,98.3,97,106/100,Moderate,Allergy,High,OPD Visit,Diagnosis Ongoing,Yes,Cetirizine,4,Local,0.25,Normal Monitoring,1.349,6.91,90.93
+P177,98.0,108,121/102,Ending,Hypertension,Medium,Hospital Bed,Emergency Procedure,Yes,BP Medicines,5,Local,0.32,Normal Monitoring,0.916,5.47,95.88
+P178,99.2,79,152/81,Starting,Burn Injury,Low,Hospital Bed,Treatment Ongoing,Yes,Burn Ointment,4,Local,0.25,Normal Monitoring,0.694,17.84,94.81
+P179,102.3,71,117/78,Starting,Road Accident,Low,Maternity Ward,Emergency Procedure,Yes,Painkillers,4,Local,0.25,Normal Monitoring,1.971,17.14,96.42
+P180,98.3,63,124/67,Moderate,Labor Pain,Low,Isolation Room,Monitoring,Yes,Maternity Support,4,Local,0.25,Normal Monitoring,0.937,15.93,90.65
+P181,103.6,115,112/108,Moderate,Sinus Infection,High,OPD Visit,Screening,Yes,Antihistamine,5,Local,0.32,Normal Monitoring,1.809,9.64,95.8
+P182,100.7,88,135/105,Starting,Stroke,High,Doctor Assigned,Monitoring,Yes,Neuro Medicines,4,Local,0.25,Normal Monitoring,0.614,12.82,95.61
+P183,99.2,100,166/90,Ending,Pneumonia,High,Maternity Ward,Screening,Yes,Antibiotics,4,Local,0.25,Normal Monitoring,0.584,16.89,95.61
+P184,98.5,107,138/78,Moderate,Hypertension,Low,Isolation Room,Records Updated,Yes,BP Medicines,5,Local,0.32,Normal Monitoring,0.256,14.94,96.03
+P185,101.5,125,155/102,Starting,Road Accident,High,Emergency Ward,Treatment Ongoing,Yes,Painkillers,6,Edge/Cloud,0.38,Fast Processing,1.373,24.76,96.76
+P186,102.1,94,134/72,Moderate,Sinus Infection,High,OPD Visit,Treatment Ongoing,Yes,Antihistamine,4,Local,0.25,Normal Monitoring,0.863,7.73,98.05
+P187,98.5,90,140/100,Starting,Sinus Infection,Low,Doctor Assigned,Maternity Care,Yes,Antihistamine,4,Local,0.25,Normal Monitoring,1.756,18.9,92.7
+P188,97.1,105,137/69,Starting,Typhoid,Low,OPD Visit,Diagnosis Ongoing,Yes,Antibiotics,5,Local,0.32,Normal Monitoring,1.052,13.09,98.25
+P189,99.0,112,109/95,Ending,Diabetes Checkup,Low,General Ward,Maternity Care,Yes,Insulin,5,Local,0.32,Normal Monitoring,1.943,13.56,94.98
+P190,98.0,89,155/104,Moderate,Allergy,High,Emergency Ward,Discharge Process,Yes,Cetirizine,4,Local,0.25,Normal Monitoring,0.534,19.35,90.77
+P191,99.8,73,122/109,Starting,Diabetes Checkup,Medium,Isolation Room,Monitoring,Yes,Insulin,4,Local,0.25,Normal Monitoring,1.764,18.85,90.59
+P192,98.5,126,141/92,Moderate,Flu,Low,ICU,Diagnosis Ongoing,Yes,Paracetamol,6,Edge/Cloud,0.38,Fast Processing,1.598,24.83,93.34
+P193,97.6,108,169/94,Ending,Allergy,Medium,Doctor Assigned,Screening,Yes,Cetirizine,5,Local,0.32,Normal Monitoring,1.588,7.57,97.85
+P194,101.0,95,111/88,Starting,Burn Injury,Low,Isolation Room,Treatment Ongoing,Yes,Burn Ointment,4,Local,0.25,Normal Monitoring,1.721,7.08,97.08
+P195,101.6,78,132/105,Moderate,Labor Pain,Low,Maternity Ward,Monitoring,Yes,Maternity Support,4,Local,0.25,Normal Monitoring,1.57,19.49,97.89
+P196,100.6,82,125/66,Ending,Fracture,Low,Doctor Assigned,Maternity Care,Yes,Calcium + Bandage,4,Local,0.25,Normal Monitoring,1.327,16.57,95.17
+P197,102.6,130,152/91,Moderate,Cold,Medium,Emergency Ward,Treatment Ongoing,Yes,Vitamin C,6,Edge/Cloud,0.38,Fast Processing,0.436,10.48,94.4
+P198,101.6,95,106/91,Starting,Pneumonia,High,Doctor Assigned,Treatment Ongoing,Yes,Antibiotics,4,Local,0.25,Normal Monitoring,0.259,6.59,91.47
+P199,99.5,97,123/85,Ending,Sinus Infection,High,Isolation Room,Screening,Yes,Antihistamine,4,Local,0.25,Normal Monitoring,1.858,6.71,93.28
+P200,103.2,63,151/87,Ending,Dengue,Medium,Hospital Bed,Screening,Yes,IV Fluids,4,Local,0.25,Normal Monitoring,1.31,22.88,94.34
+P201,103.3,93,135/66,Starting,Fracture,Low,Isolation Room,Maternity Care,Yes,Calcium + Bandage,4,Local,0.25,Normal Monitoring,1.634,8.84,90.89
+P202,103.6,108,111/93,Starting,Head Injury,Medium,Isolation Room,Monitoring,Yes,Neuro Support,5,Local,0.32,Normal Monitoring,1.067,11.47,92.21
+P203,97.4,68,117/102,Moderate,Allergy,Medium,Isolation Room,Discharge Process,Yes,Cetirizine,4,Local,0.25,Normal Monitoring,0.411,9.53,95.98
+P204,101.4,93,130/103,Moderate,Diabetes Checkup,Medium,Emergency Ward,Discharge Process,Yes,Insulin,4,Local,0.25,Normal Monitoring,0.425,12.1,97.36
+P205,99.7,80,110/84,Moderate,Road Accident,Medium,General Ward,Diagnosis Ongoing,Yes,Painkillers,4,Local,0.25,Normal Monitoring,1.434,6.39,99.98
+P206,98.1,76,106/66,Starting,Labor Pain,Medium,Hospital Bed,Diagnosis Ongoing,Yes,Maternity Support,4,Local,0.25,Normal Monitoring,0.975,15.38,99.33
+P207,102.7,79,154/90,Moderate,Typhoid,Low,OPD Visit,Treatment Ongoing,Yes,Antibiotics,4,Local,0.25,Normal Monitoring,0.561,6.35,96.43
+P208,98.7,118,168/71,Ending,Allergy,Medium,General Ward,Discharge Process,Yes,Cetirizine,5,Local,0.32,Normal Monitoring,1.085,21.01,94.21
+P209,99.2,93,122/109,Moderate,Diabetes Checkup,Low,Maternity Ward,Screening,Yes,Insulin,4,Local,0.25,Normal Monitoring,0.316,9.67,96.36
+P210,99.8,79,128/89,Starting,Pregnancy Checkup,High,Maternity Ward,Records Updated,Yes,Supplements,4,Local,0.25,Normal Monitoring,1.248,15.8,97.86
+P211,98.0,100,151/109,Ending,Hypertension,Medium,Emergency Ward,Emergency Procedure,Yes,BP Medicines,4,Local,0.25,Normal Monitoring,0.684,22.6,91.18
+P212,100.4,98,130/103,Moderate,Burn Injury,Medium,Hospital Bed,Diagnosis Ongoing,Yes,Burn Ointment,4,Local,0.25,Normal Monitoring,1.636,18.02,94.1
+P213,103.3,117,126/108,Starting,Head Injury,High,Emergency Ward,Monitoring,Yes,Neuro Support,5,Local,0.32,Normal Monitoring,0.759,15.66,98.4
+P214,98.5,100,111/65,Moderate,Head Injury,Low,Doctor Assigned,Records Updated,Yes,Neuro Support,4,Local,0.25,Normal Monitoring,1.019,11.49,93.84
+P215,97.3,98,138/77,Starting,Asthma,High,Hospital Bed,Treatment Ongoing,Yes,Inhaler,4,Local,0.25,Normal Monitoring,0.221,11.66,95.72
+P216,102.1,127,135/70,Starting,Stroke,High,ICU,Treatment Ongoing,Yes,Neuro Medicines,6,Edge/Cloud,0.38,Fast Processing,0.33,18.39,95.88
+P217,101.5,75,170/66,Moderate,Kidney Stone,Medium,Hospital Bed,Screening,Yes,Painkillers + Hydration,4,Local,0.25,Normal Monitoring,0.906,24.88,91.84
+P218,97.7,98,121/84,Starting,Stroke,Medium,Isolation Room,Diagnosis Ongoing,Yes,Neuro Medicines,4,Local,0.25,Normal Monitoring,1.064,18.24,93.62
+P219,101.3,78,163/82,Starting,Kidney Stone,High,Hospital Bed,Treatment Ongoing,Yes,Painkillers + Hydration,4,Local,0.25,Normal Monitoring,1.28,16.16,93.35
+P220,100.8,129,105/93,Ending,Hypertension,High,General Ward,Diagnosis Ongoing,Yes,BP Medicines,6,Edge/Cloud,0.38,Fast Processing,0.725,19.61,90.26
+P221,99.9,107,125/67,Moderate,Burn Injury,Medium,Maternity Ward,Screening,Yes,Burn Ointment,5,Local,0.32,Normal Monitoring,1.451,14.3,90.24
+P222,100.7,119,138/68,Ending,Kidney Stone,Low,Isolation Room,Records Updated,Yes,Painkillers + Hydration,5,Local,0.32,Normal Monitoring,1.748,6.2,98.32
+P223,98.8,96,164/70,Starting,Stroke,Low,Maternity Ward,Screening,Yes,Neuro Medicines,4,Local,0.25,Normal Monitoring,1.604,16.25,92.73
+P224,99.1,61,151/98,Starting,Allergy,Medium,Hospital Bed,Screening,Yes,Cetirizine,4,Local,0.25,Normal Monitoring,0.271,24.15,95.18
+P225,99.9,65,164/99,Ending,Pregnancy Checkup,Low,ICU,Emergency Procedure,Yes,Supplements,4,Local,0.25,Normal Monitoring,1.065,8.51,92.99
+P226,102.3,114,130/78,Starting,Typhoid,Medium,Maternity Ward,Discharge Process,Yes,Antibiotics,5,Local,0.32,Normal Monitoring,0.389,18.8,99.41
+P227,97.8,63,127/80,Starting,Labor Pain,Low,Emergency Ward,Records Updated,Yes,Maternity Support,4,Local,0.25,Normal Monitoring,0.636,9.02,92.59
+P228,97.6,130,165/109,Starting,Flu,Medium,Hospital Bed,Emergency Procedure,Yes,Paracetamol,6,Edge/Cloud,0.38,Fast Processing,1.976,15.72,94.3
+P229,100.2,96,142/87,Starting,Heart Attack,Low,Maternity Ward,Records Updated,Yes,Emergency Cardiac Care,4,Local,0.25,Normal Monitoring,0.456,6.93,98.73
+P230,103.2,82,163/78,Ending,Allergy,Medium,Isolation Room,Emergency Procedure,Yes,Cetirizine,4,Local,0.25,Normal Monitoring,1.098,14.01,98.42
+P231,98.5,77,162/84,Moderate,Allergy,Low,Emergency Ward,Treatment Ongoing,Yes,Cetirizine,4,Local,0.25,Normal Monitoring,1.313,20.12,91.86
+P232,103.9,98,167/77,Ending,Pneumonia,Low,Isolation Room,Screening,Yes,Antibiotics,4,Local,0.25,Normal Monitoring,1.464,11.95,98.03
+P233,99.3,111,145/102,Moderate,Typhoid,High,Hospital Bed,Discharge Process,Yes,Antibiotics,5,Local,0.32,Normal Monitoring,1.207,18.3,94.58
+P234,103.5,127,169/86,Starting,Hypertension,High,OPD Visit,Monitoring,Yes,BP Medicines,6,Edge/Cloud,0.38,Fast Processing,0.218,20.91,94.83
+P235,103.7,122,127/91,Starting,Burn Injury,High,OPD Visit,Monitoring,Yes,Burn Ointment,6,Edge/Cloud,0.38,Fast Processing,0.788,23.54,91.33
+P236,98.0,92,160/94,Starting,Sinus Infection,Medium,Isolation Room,Monitoring,Yes,Antihistamine,4,Local,0.25,Normal Monitoring,1.132,9.69,90.81
+P237,100.0,91,140/80,Starting,Pneumonia,Medium,General Ward,Monitoring,Yes,Antibiotics,4,Local,0.25,Normal Monitoring,0.358,12.99,97.28
+P238,102.3,114,115/103,Starting,Asthma,Low,Hospital Bed,Diagnosis Ongoing,Yes,Inhaler,5,Local,0.32,Normal Monitoring,0.831,8.05,94.96
+P239,103.9,106,124/96,Moderate,Fracture,Medium,Hospital Bed,Monitoring,Yes,Calcium + Bandage,5,Local,0.32,Normal Monitoring,0.26,24.85,94.37
+P240,100.8,67,163/98,Starting,Pregnancy Checkup,Low,Isolation Room,Treatment Ongoing,Yes,Supplements,4,Local,0.25,Normal Monitoring,0.341,23.54,97.3
+P241,100.5,80,149/66,Moderate,Allergy,Medium,Doctor Assigned,Screening,Yes,Cetirizine,4,Local,0.25,Normal Monitoring,0.914,15.8,97.66
+P242,100.5,122,142/97,Ending,Burn Injury,High,Maternity Ward,Treatment Ongoing,Yes,Burn Ointment,6,Edge/Cloud,0.38,Fast Processing,0.439,21.84,91.59
+P243,97.2,96,112/95,Ending,Head Injury,High,Emergency Ward,Treatment Ongoing,Yes,Neuro Support,4,Local,0.25,Normal Monitoring,1.222,15.42,96.1
+P244,97.3,84,129/81,Ending,Kidney Stone,Medium,General Ward,Maternity Care,Yes,Painkillers + Hydration,4,Local,0.25,Normal Monitoring,1.441,17.47,91.35
+P245,99.3,87,146/68,Ending,Sinus Infection,Medium,General Ward,Discharge Process,Yes,Antihistamine,4,Local,0.25,Normal Monitoring,1.641,6.78,97.51
+P246,100.1,82,128/85,Moderate,Road Accident,Low,Isolation Room,Emergency Procedure,Yes,Painkillers,4,Local,0.25,Normal Monitoring,0.56,20.11,96.57
+P247,100.8,64,161/78,Moderate,Typhoid,Low,General Ward,Screening,Yes,Antibiotics,4,Local,0.25,Normal Monitoring,0.501,7.55,99.57
+P248,101.0,130,149/87,Moderate,Head Injury,High,ICU,Screening,Yes,Neuro Support,6,Edge/Cloud,0.38,Fast Processing,0.388,21.52,90.69
+P249,97.4,84,144/80,Moderate,Hypertension,Medium,ICU,Screening,Yes,BP Medicines,4,Local,0.25,Normal Monitoring,1.346,20.64,90.57
+P250,97.3,86,152/66,Moderate,Allergy,High,Isolation Room,Maternity Care,Yes,Cetirizine,4,Local,0.25,Normal Monitoring,1.472,19.17,92.82
+P251,99.6,73,157/73,Starting,Allergy,High,ICU,Records Updated,Yes,Cetirizine,4,Local,0.25,Normal Monitoring,0.257,5.72,92.62
+P252,104.0,78,139/82,Ending,Dengue,Low,ICU,Maternity Care,Yes,IV Fluids,4,Local,0.25,Normal Monitoring,1.885,11.06,92.47
+P253,98.5,76,127/82,Moderate,Dengue,Medium,Emergency Ward,Monitoring,Yes,IV Fluids,4,Local,0.25,Normal Monitoring,0.294,10.26,99.06
+P254,99.8,79,145/100,Moderate,Cold,High,Hospital Bed,Monitoring,Yes,Vitamin C,4,Local,0.25,Normal Monitoring,1.174,12.2,92.5
+P255,98.9,75,151/102,Ending,Burn Injury,High,OPD Visit,Discharge Process,Yes,Burn Ointment,4,Local,0.25,Normal Monitoring,1.476,6.75,92.72
+P256,103.6,79,127/84,Moderate,Labor Pain,Low,General Ward,Maternity Care,Yes,Maternity Support,4,Local,0.25,Normal Monitoring,1.768,23.74,97.59
+P257,100.8,87,167/108,Ending,Head Injury,Medium,Doctor Assigned,Treatment Ongoing,Yes,Neuro Support,4,Local,0.25,Normal Monitoring,1.485,16.08,94.5
+P258,97.6,113,115/97,Moderate,Flu,Medium,ICU,Screening,Yes,Paracetamol,5,Local,0.32,Normal Monitoring,1.643,11.11,97.77
+P259,100.1,77,124/93,Starting,Fracture,Low,Maternity Ward,Maternity Care,Yes,Calcium + Bandage,4,Local,0.25,Normal Monitoring,0.811,12.94,90.65
+P260,100.0,126,120/76,Ending,Labor Pain,High,Maternity Ward,Discharge Process,Yes,Maternity Support,6,Edge/Cloud,0.38,Fast Processing,1.667,13.94,94.88
+P261,98.4,116,131/95,Starting,Dengue,Medium,OPD Visit,Discharge Process,Yes,IV Fluids,5,Local,0.32,Normal Monitoring,0.344,17.01,90.34
+P262,101.4,99,165/81,Starting,Labor Pain,Medium,Emergency Ward,Monitoring,Yes,Maternity Support,4,Local,0.25,Normal Monitoring,1.811,15.31,90.63
+P263,102.8,63,169/95,Ending,Diabetes Checkup,High,Isolation Room,Diagnosis Ongoing,Yes,Insulin,4,Local,0.25,Normal Monitoring,1.186,23.39,99.06
+P264,97.3,108,168/77,Starting,Cold,Medium,ICU,Screening,Yes,Vitamin C,5,Local,0.32,Normal Monitoring,1.671,14.94,91.39
+P265,97.6,105,115/66,Moderate,Pregnancy Checkup,High,ICU,Discharge Process,Yes,Supplements,5,Local,0.32,Normal Monitoring,1.014,24.84,95.32
+P266,102.5,106,158/65,Starting,Hypertension,Medium,Maternity Ward,Emergency Procedure,Yes,BP Medicines,5,Local,0.32,Normal Monitoring,1.358,22.03,94.11
+P267,97.7,72,106/100,Starting,Allergy,High,Emergency Ward,Diagnosis Ongoing,Yes,Cetirizine,4,Local,0.25,Normal Monitoring,1.148,9.17,93.47
+P268,100.6,124,123/96,Ending,Allergy,Low,OPD Visit,Monitoring,Yes,Cetirizine,6,Edge/Cloud,0.38,Fast Processing,1.517,23.61,99.0
+P269,100.8,107,115/99,Ending,Diabetes Checkup,High,General Ward,Maternity Care,Yes,Insulin,5,Local,0.32,Normal Monitoring,0.347,7.33,90.22
+P270,99.5,108,144/84,Ending,Road Accident,High,Isolation Room,Monitoring,Yes,Painkillers,5,Local,0.32,Normal Monitoring,0.309,21.35,96.64
+P271,103.0,97,116/73,Ending,Labor Pain,Medium,OPD Visit,Discharge Process,Yes,Maternity Support,4,Local,0.25,Normal Monitoring,0.645,12.61,99.63
+P272,103.8,78,167/76,Ending,Road Accident,Medium,Emergency Ward,Treatment Ongoing,Yes,Painkillers,4,Local,0.25,Normal Monitoring,0.487,22.56,95.6
+P273,103.3,127,161/88,Moderate,Diabetes Checkup,Medium,General Ward,Records Updated,Yes,Insulin,6,Edge/Cloud,0.38,Fast Processing,1.769,22.36,99.37
+P274,103.0,61,109/110,Moderate,Heart Attack,High,Isolation Room,Diagnosis Ongoing,Yes,Emergency Cardiac Care,4,Local,0.25,Normal Monitoring,0.595,21.12,90.52
+P275,98.1,74,156/100,Starting,Sinus Infection,High,OPD Visit,Maternity Care,Yes,Antihistamine,4,Local,0.25,Normal Monitoring,1.957,20.8,94.19
+P276,103.8,97,129/74,Starting,Dengue,Low,Maternity Ward,Maternity Care,Yes,IV Fluids,4,Local,0.25,Normal Monitoring,0.806,11.09,92.6
+P277,101.8,98,158/77,Ending,Kidney Stone,Low,Hospital Bed,Screening,Yes,Painkillers + Hydration,4,Local,0.25,Normal Monitoring,0.528,6.62,97.31
+P278,100.9,129,139/79,Starting,Typhoid,Low,OPD Visit,Screening,Yes,Antibiotics,6,Edge/Cloud,0.38,Fast Processing,1.621,13.06,99.81
+P279,99.0,112,164/98,Starting,Burn Injury,Medium,Maternity Ward,Discharge Process,Yes,Burn Ointment,5,Local,0.32,Normal Monitoring,1.386,8.47,92.57
+P280,101.8,82,154/67,Moderate,Hypertension,Medium,Hospital Bed,Treatment Ongoing,Yes,BP Medicines,4,Local,0.25,Normal Monitoring,1.097,18.9,96.54
+P281,103.9,108,153/101,Starting,Kidney Stone,Low,OPD Visit,Emergency Procedure,Yes,Painkillers + Hydration,5,Local,0.32,Normal Monitoring,1.2,11.92,91.98
+P282,97.6,130,128/106,Ending,Asthma,Low,Emergency Ward,Records Updated,Yes,Inhaler,6,Edge/Cloud,0.38,Fast Processing,1.495,24.51,95.65
+P283,101.7,76,123/110,Moderate,Stroke,High,General Ward,Discharge Process,Yes,Neuro Medicines,4,Local,0.25,Normal Monitoring,0.611,17.82,94.64
+P284,101.8,121,143/108,Starting,Hypertension,High,Doctor Assigned,Screening,Yes,BP Medicines,6,Edge/Cloud,0.38,Fast Processing,1.993,21.45,99.72
+P285,97.1,96,154/65,Starting,Asthma,Low,Maternity Ward,Diagnosis Ongoing,Yes,Inhaler,4,Local,0.25,Normal Monitoring,1.955,7.65,96.09
+P286,99.8,71,149/74,Moderate,Pneumonia,Low,Hospital Bed,Treatment Ongoing,Yes,Antibiotics,4,Local,0.25,Normal Monitoring,1.371,22.24,93.5
+P287,102.1,89,124/69,Starting,Diabetes Checkup,Medium,Maternity Ward,Emergency Procedure,Yes,Insulin,4,Local,0.25,Normal Monitoring,0.559,23.46,91.14
+P288,97.1,128,139/80,Ending,Sinus Infection,Medium,Maternity Ward,Records Updated,Yes,Antihistamine,6,Edge/Cloud,0.38,Fast Processing,1.424,14.74,91.51
+P289,100.3,124,160/66,Ending,Labor Pain,Low,Maternity Ward,Monitoring,Yes,Maternity Support,6,Edge/Cloud,0.38,Fast Processing,0.33,17.13,92.25
+P290,101.7,130,116/72,Moderate,Asthma,Medium,Doctor Assigned,Maternity Care,Yes,Inhaler,6,Edge/Cloud,0.38,Fast Processing,0.255,20.3,92.51
+P291,101.4,85,119/80,Ending,Hypertension,High,Emergency Ward,Monitoring,Yes,BP Medicines,4,Local,0.25,Normal Monitoring,0.664,8.5,98.51
+P292,98.7,61,123/68,Ending,Cold,High,Doctor Assigned,Maternity Care,Yes,Vitamin C,4,Local,0.25,Normal Monitoring,1.033,15.05,95.61
+P293,102.2,110,153/68,Starting,Stroke,High,Maternity Ward,Records Updated,Yes,Neuro Medicines,5,Local,0.32,Normal Monitoring,1.763,12.97,95.23
+P294,103.3,85,143/94,Ending,Flu,Low,Hospital Bed,Records Updated,Yes,Paracetamol,4,Local,0.25,Normal Monitoring,1.509,7.93,91.15
+P295,98.8,72,128/94,Moderate,Sinus Infection,High,General Ward,Emergency Procedure,Yes,Antihistamine,4,Local,0.25,Normal Monitoring,1.537,12.35,98.6
+P296,101.9,99,137/107,Starting,Asthma,Medium,Hospital Bed,Monitoring,Yes,Inhaler,4,Local,0.25,Normal Monitoring,0.966,6.36,97.23
+P297,101.9,128,158/107,Starting,Asthma,Low,General Ward,Discharge Process,Yes,Inhaler,6,Edge/Cloud,0.38,Fast Processing,0.823,5.52,90.68
+P298,100.3,69,142/101,Starting,Pneumonia,Medium,Hospital Bed,Records Updated,Yes,Antibiotics,4,Local,0.25,Normal Monitoring,0.868,7.7,97.08
+P299,98.7,112,131/102,Starting,Asthma,Low,ICU,Records Updated,Yes,Inhaler,5,Local,0.32,Normal Monitoring,1.978,24.26,95.44
+P300,101.3,106,121/78,Starting,Pregnancy Checkup,Medium,Isolation Room,Discharge Process,Yes,Supplements,5,Local,0.32,Normal Monitoring,0.272,15.99,90.82
+P301,100.2,61,108/98,Starting,Sinus Infection,Medium,Maternity Ward,Maternity Care,Yes,Antihistamine,4,Local,0.25,Normal Monitoring,1.761,24.32,94.58
+P302,97.6,84,163/68,Starting,Heart Attack,Medium,OPD Visit,Emergency Procedure,Yes,Emergency Cardiac Care,4,Local,0.25,Normal Monitoring,1.242,13.65,94.85
+P303,98.0,88,106/82,Moderate,Pregnancy Checkup,Low,Emergency Ward,Emergency Procedure,Yes,Supplements,4,Local,0.25,Normal Monitoring,0.99,11.24,91.66
+P304,101.8,112,161/107,Ending,Flu,Medium,Isolation Room,Treatment Ongoing,Yes,Paracetamol,5,Local,0.32,Normal Monitoring,1.505,15.12,99.46
+P305,102.5,77,107/88,Ending,Head Injury,Low,Hospital Bed,Emergency Procedure,Yes,Neuro Support,4,Local,0.25,Normal Monitoring,1.076,13.79,98.5
+P306,97.4,80,109/109,Moderate,Viral Fever,Low,Doctor Assigned,Records Updated,Yes,Paracetamol,4,Local,0.25,Normal Monitoring,1.772,7.11,96.69
+P307,99.2,115,143/105,Moderate,Heart Attack,Medium,ICU,Discharge Process,Yes,Emergency Cardiac Care,5,Local,0.32,Normal Monitoring,1.821,17.82,94.62
+P308,98.5,106,165/83,Ending,Road Accident,Medium,OPD Visit,Treatment Ongoing,Yes,Painkillers,5,Local,0.32,Normal Monitoring,0.959,9.32,94.12
+P309,100.1,80,158/75,Moderate,Pregnancy Checkup,Low,Maternity Ward,Screening,Yes,Supplements,4,Local,0.25,Normal Monitoring,0.698,17.39,96.51
+P310,97.3,114,149/85,Starting,Asthma,High,General Ward,Emergency Procedure,Yes,Inhaler,5,Local,0.32,Normal Monitoring,1.266,18.0,95.45
+P311,97.4,69,112/100,Moderate,Dengue,High,Emergency Ward,Records Updated,Yes,IV Fluids,4,Local,0.25,Normal Monitoring,1.842,8.04,90.62
+P312,98.7,94,119/87,Ending,Road Accident,Medium,ICU,Treatment Ongoing,Yes,Painkillers,4,Local,0.25,Normal Monitoring,0.579,6.23,95.13
+P313,101.6,83,169/67,Moderate,Heart Attack,Medium,Hospital Bed,Screening,Yes,Emergency Cardiac Care,4,Local,0.25,Normal Monitoring,1.321,20.62,98.06
+P314,99.0,129,146/98,Moderate,Fracture,Medium,OPD Visit,Treatment Ongoing,Yes,Calcium + Bandage,6,Edge/Cloud,0.38,Fast Processing,1.337,14.2,94.59
+P315,97.3,80,150/108,Moderate,Flu,Low,OPD Visit,Diagnosis Ongoing,Yes,Paracetamol,4,Local,0.25,Normal Monitoring,1.52,6.16,90.52
+P316,103.3,122,137/87,Starting,Pneumonia,Low,OPD Visit,Records Updated,Yes,Antibiotics,6,Edge/Cloud,0.38,Fast Processing,0.437,24.9,97.86
+P317,101.6,91,156/76,Ending,Heart Attack,Low,Isolation Room,Diagnosis Ongoing,Yes,Emergency Cardiac Care,4,Local,0.25,Normal Monitoring,1.488,6.16,92.01
+P318,99.0,130,136/110,Starting,Stroke,Low,Maternity Ward,Emergency Procedure,Yes,Neuro Medicines,6,Edge/Cloud,0.38,Fast Processing,1.836,18.9,92.59
+P319,102.7,106,115/94,Moderate,Viral Fever,High,Emergency Ward,Emergency Procedure,Yes,Paracetamol,5,Local,0.32,Normal Monitoring,0.523,24.67,91.65
+P320,101.8,128,150/99,Moderate,Sinus Infection,Medium,General Ward,Emergency Procedure,Yes,Antihistamine,6,Edge/Cloud,0.38,Fast Processing,0.628,9.78,93.3
+P321,102.0,69,107/89,Ending,Flu,Low,Maternity Ward,Discharge Process,Yes,Paracetamol,4,Local,0.25,Normal Monitoring,1.949,7.84,97.57
+P322,101.1,83,141/93,Ending,Hypertension,Low,Maternity Ward,Records Updated,Yes,BP Medicines,4,Local,0.25,Normal Monitoring,0.526,7.43,95.19
+P323,97.5,94,110/102,Starting,Sinus Infection,High,Maternity Ward,Records Updated,Yes,Antihistamine,4,Local,0.25,Normal Monitoring,1.738,11.07,92.05
+P324,100.6,93,155/90,Starting,Burn Injury,Low,ICU,Emergency Procedure,Yes,Burn Ointment,4,Local,0.25,Normal Monitoring,1.086,7.02,98.78
+P325,100.3,129,154/66,Starting,Sinus Infection,High,Maternity Ward,Emergency Procedure,Yes,Antihistamine,6,Edge/Cloud,0.38,Fast Processing,0.645,18.84,98.8
+P326,99.0,63,145/83,Starting,Road Accident,Medium,General Ward,Emergency Procedure,Yes,Painkillers,4,Local,0.25,Normal Monitoring,1.767,6.25,98.71
+P327,97.1,129,166/70,Moderate,Labor Pain,Low,ICU,Diagnosis Ongoing,Yes,Maternity Support,6,Edge/Cloud,0.38,Fast Processing,1.002,15.19,92.39
+P328,101.3,66,130/109,Moderate,Hypertension,High,Isolation Room,Monitoring,Yes,BP Medicines,4,Local,0.25,Normal Monitoring,1.127,24.93,94.51
+P329,103.6,68,159/83,Starting,Asthma,Medium,Maternity Ward,Diagnosis Ongoing,Yes,Inhaler,4,Local,0.25,Normal Monitoring,0.847,21.28,99.85
+P330,101.0,75,157/105,Starting,Asthma,Low,OPD Visit,Monitoring,Yes,Inhaler,4,Local,0.25,Normal Monitoring,1.267,17.3,97.72
+P331,101.6,119,142/84,Ending,Head Injury,High,Hospital Bed,Diagnosis Ongoing,Yes,Neuro Support,5,Local,0.32,Normal Monitoring,0.494,11.13,90.27
+P332,103.1,77,162/89,Moderate,Flu,Medium,Isolation Room,Monitoring,Yes,Paracetamol,4,Local,0.25,Normal Monitoring,0.904,17.48,90.65
+P333,103.0,99,144/104,Starting,Heart Attack,Low,Doctor Assigned,Discharge Process,Yes,Emergency Cardiac Care,4,Local,0.25,Normal Monitoring,1.945,15.54,94.64
+P334,101.9,81,143/79,Moderate,Pregnancy Checkup,Low,Hospital Bed,Screening,Yes,Supplements,4,Local,0.25,Normal Monitoring,0.665,13.52,99.09
+P335,103.2,81,123/67,Starting,Hypertension,High,OPD Visit,Maternity Care,Yes,BP Medicines,4,Local,0.25,Normal Monitoring,1.382,7.61,95.39
+P336,97.8,76,117/92,Moderate,Dengue,Low,Isolation Room,Treatment Ongoing,Yes,IV Fluids,4,Local,0.25,Normal Monitoring,0.785,22.73,94.98
+P337,97.8,95,150/90,Moderate,Diabetes Checkup,High,General Ward,Treatment Ongoing,Yes,Insulin,4,Local,0.25,Normal Monitoring,1.592,14.0,91.05
+P338,103.1,113,133/66,Starting,Cold,High,General Ward,Diagnosis Ongoing,Yes,Vitamin C,5,Local,0.32,Normal Monitoring,0.436,8.89,96.57
+P339,103.4,86,135/100,Starting,Dengue,Low,OPD Visit,Treatment Ongoing,Yes,IV Fluids,4,Local,0.25,Normal Monitoring,1.946,12.36,98.22
+P340,102.4,103,113/79,Moderate,Road Accident,Medium,Maternity Ward,Maternity Care,Yes,Painkillers,5,Local,0.32,Normal Monitoring,1.017,13.28,93.8
+P341,100.5,93,132/97,Starting,Cold,Medium,Hospital Bed,Maternity Care,Yes,Vitamin C,4,Local,0.25,Normal Monitoring,0.625,21.55,97.76
+P342,98.5,61,141/102,Moderate,Allergy,Medium,Doctor Assigned,Monitoring,Yes,Cetirizine,4,Local,0.25,Normal Monitoring,0.332,19.67,99.64
+P343,103.1,84,139/109,Starting,Fracture,Medium,Isolation Room,Screening,Yes,Calcium + Bandage,4,Local,0.25,Normal Monitoring,0.506,20.39,92.04
+P344,97.0,119,112/70,Ending,Heart Attack,High,Maternity Ward,Discharge Process,Yes,Emergency Cardiac Care,5,Local,0.32,Normal Monitoring,1.136,5.22,95.23
+P345,102.1,81,132/74,Starting,Diabetes Checkup,Low,Emergency Ward,Records Updated,Yes,Insulin,4,Local,0.25,Normal Monitoring,0.807,13.32,92.87
+P346,100.0,123,144/98,Ending,Road Accident,Medium,Hospital Bed,Emergency Procedure,Yes,Painkillers,6,Edge/Cloud,0.38,Fast Processing,1.692,14.63,97.93
+P347,99.9,61,108/77,Starting,Road Accident,Medium,Emergency Ward,Discharge Process,Yes,Painkillers,4,Local,0.25,Normal Monitoring,0.976,5.38,95.78
+P348,103.7,91,156/94,Starting,Stroke,Low,General Ward,Emergency Procedure,Yes,Neuro Medicines,4,Local,0.25,Normal Monitoring,0.648,10.2,96.35
+P349,100.7,119,112/100,Ending,Pregnancy Checkup,Low,General Ward,Diagnosis Ongoing,Yes,Supplements,5,Local,0.32,Normal Monitoring,1.311,20.21,97.98
+P350,100.1,90,143/93,Moderate,Heart Attack,Low,Isolation Room,Discharge Process,Yes,Emergency Cardiac Care,4,Local,0.25,Normal Monitoring,1.472,7.74,93.96
